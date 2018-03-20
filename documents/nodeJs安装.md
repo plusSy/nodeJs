@@ -1,12 +1,13 @@
-NodeJs安装工程:
-一、安装nodejs
-1、打开nodeJs官网 https://nodejs.org/en/ 选择适合自己电脑版本的安装包进行下载,一路回车即可。
-2、打开Terminal窗口输入node -v 和 npm -v 检测安装版本
-二、创建一个nodejs工程
-1、打开Terminal窗口,全局安装express模块: npm install express -g
-2、全局安装express-generator模块: npm install express-generator -g
-3、输入express --version 检测是否安装成功
-4、新建一个工作文件夹,输入express helloword 创建一个helloword工程,输出目录为下
+## NodeJs安装工程:
+### 安装nodeJs
+- 打开nodeJs官网 `https://nodejs.org/en/` 选择适合自己电脑版本的安装包进行下载,一路回车即可。
+- 打开Terminal窗口输入`node -v` 和 `npm -v` 检测安装版本
+### 创建一个nodejs工程
+- 打开Terminal窗口,全局安装express模块: `npm install express -g`
+- 全局安装express-generator模块: `npm install express-generator -g`
+- 输入express --version 检测是否安装成功
+- 新建一个工作文件夹,输入`express helloword` 创建一个helloword工程,输出目录为下
+```js
       create : helloword
       create : helloword/package.json
       create : helloword/app.js
@@ -24,7 +25,10 @@ NodeJs安装工程:
       create : helloword/public/images
       create : helloword/public/stylesheets
       create : helloword/public/stylesheets/style.css
-接着执行:cd helloword && npm install,NPM会根据package.json进行依赖安装,之后项目中会多出node_moduless文件夹,里面会有express和jade两个模块
+```
+接着执行:`cd helloword && npm install`,npm会根据package.json进行依赖安装,之后项目中会多出node_moduless文件夹,里面会有express和jade两个模块
+
+```
 目录介绍:
   bin: 项目的启动文件,也可以放置其他脚本
   node_moduless: 用来存放项目的依赖库
@@ -39,11 +43,15 @@ NodeJs安装工程:
   config: 配置目录
   test: 测试目录
   README.md: 项目说明文件
-5、执行DEBUG=helloword:* npm start  ||  node app.js启动项目
-6、打开浏览器,输入默认地址:http://localhost:3000 页面输出:
+```
+### 执行`DEBUG=helloword:* npm start  ||  node app.js`启动项目
+### 打开浏览器,输入默认地址:`http://localhost:3000` 页面输出:
+```
   Express
   Welcome to Express
+```
 
 
 NodeJsApi手册: https://nodejs.org/dist/latest-v8.x/docs/api
+
 Express4.xAPI中文手册: http://www.expressjs.com.cn/4x/api.com
