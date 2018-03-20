@@ -3,10 +3,10 @@
 - 打开nodeJs官网 `https://nodejs.org/en/` 选择适合自己电脑版本的安装包进行下载,一路回车即可。
 - 打开Terminal窗口输入`node -v` 和 `npm -v` 检测安装版本
 ### 创建一个nodejs工程
-- 打开Terminal窗口,全局安装express模块: `npm install express -g`
-- 全局安装express-generator模块: `npm install express-generator -g`
-- 输入express --version 检测是否安装成功
-- 新建一个工作文件夹,输入`express helloword` 创建一个helloword工程,输出目录为下
+- 打开 Terminal 窗口,全局安装 express 模块: `npm install express -g`
+- 全局安装 express-generator 模块: `npm install express-generator -g`
+- 输入`express --version` 检测是否安装成功
+- 新建一个工作文件夹,输入`express helloword` 创建一个 helloword 工程,输出目录为下
 ```js
       create : helloword
       create : helloword/package.json
@@ -26,7 +26,7 @@
       create : helloword/public/stylesheets
       create : helloword/public/stylesheets/style.css
 ```
-接着执行:`cd helloword && npm install`,npm会根据package.json进行依赖安装,之后项目中会多出node_moduless文件夹,里面会有express和jade两个模块
+接着执行:`cd helloword && npm install`, npm 会根据 package.json 进行依赖安装,之后项目中会多出 node_moduless 文件夹,里面会有 express 和 jade 两个模块
 
 ```
 目录介绍:
